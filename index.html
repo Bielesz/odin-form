@@ -11,9 +11,19 @@
   <body>
     <div class="container">
       <div class="plant">
-        <!-- https://unsplash.com/@panduior -->
-        <img class="logo" src="odin-lined.png" alt="odin logo" />
-        <h1 class="logo-text">ODIN</h1>
+        <div class="logo-box">
+          <!-- https://unsplash.com/@panduior -->
+          <img class="logo" src="odin-lined.png" alt="odin logo" />
+          <h1 class="logo-text">ODIN</h1>
+        </div>
+        <div class="autor">
+          <p>
+            Photo by
+            <a href="https://unsplash.com/@panduior">pandu</a> on
+            <a href="https://unsplash.com">Unsplsh</a>
+            .
+          </p>
+        </div>
       </div>
       <div class="container2">
         <div class="text">
@@ -23,69 +33,47 @@
             blanditiis facilis qui magnam quam totam quod sit eos expedita
             mollitia eum!
           </p>
+          <br />
           <p>You know what to do.</p>
         </div>
         <div class="form-cont">
-          <h2>Let's do This</h2>
-          <form>
-            <div class="form">
+          <h2>Let's do this!</h2>
+
+          <form class="form">
+            <div class="form-item">
               <label for="full-name">First Name</label>
-              <input
-                id="first-name"
-                type="text"
-                placeholder="John"
-                name="name"
-                required
-              />
+              <input id="first-name" type="text" name="name" required />
             </div>
 
-            <div>
+            <div class="form-item">
               <label for="full-name">Last Name</label>
-              <input
-                id="last-name"
-                type="text"
-                placeholder="Smith"
-                name="name"
-                required
-              />
+              <input id="last-name" type="text" name="name" required />
             </div>
 
-            <div>
+            <div class="form-item">
               <label for="email">Email address</label>
-              <input
-                id="email"
-                type="email"
-                placeholder="me@example.com"
-                name="email"
-                required
-              />
+              <input id="email" type="email" name="email" required />
             </div>
 
-            <div class="form">
+            <div class="form-item">
               <label for="full-name">Phone</label>
-              <input
-                id="phone"
-                type="tel"
-                placeholder="500 500 500"
-                name="name"
-                required
-              />
+              <input id="phone" type="tel" name="name" required />
             </div>
 
-            <div class="form">
+            <div class="form-item">
               <label for="full-name">PASSWORD</label>
               <input id="password" type="password" name="name" required />
             </div>
 
-            <div class="form">
+            <div class="form-item">
               <label for="full-name">CONFIRM PASSWORD</label>
               <input id="password" type="password" name="name" required />
             </div>
           </form>
         </div>
         <div class="cta">
-          <button>Clik me</button>
-          <p>Already have an account?<a>Log In</a>.</p>
+          <button class="cta-btn">Create Account</button>
+          <p>Already have an account ? <a href="#">Log In</a>.</p>
         </div>
       </div>
     </div>
