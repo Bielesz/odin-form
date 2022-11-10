@@ -11,6 +11,7 @@ html {
 @font-face {
   font-family: Norse;
   src: url("Norse-Bold.otf") format("opentype");
+  font-display: swap;
 }
 
 body {
@@ -62,10 +63,10 @@ h2 {
   border-radius: 8px;
   height: 4rem;
   width: 20rem;
-  color: #eee;
+  color: rgb(252, 252, 252);
   font-size: 1.8rem;
   font-weight: 500;
-  background-color: green;
+  background-color: rgb(0, 102, 0);
 }
 
 .form {
